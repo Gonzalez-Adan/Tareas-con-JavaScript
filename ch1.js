@@ -1,8 +1,2 @@
-//console.log("Hola a todos");
-let a = 10;
+console.log("Hola a todos");
 
-/*
-Esto es un comentario
-*/
-
-console.log(a);
