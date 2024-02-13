@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro de Usuario</title>
+    <!--<link rel="stylesheet" href="./estilos.css"> -->
+</head>
+<body>
+    
+    <div class="contenedor">
+        <h1>Formulario de Registro de Usuario</h1>
+
+        <div>
+            <label for="txtNombres">Nombres:</label><br>
+            <input type="text" class="input-item" id="txtNombres"><br>
+        </div>
+        
+        <div>
+            <label for="txtApellidos">Apellidos:</label><br>
+            <input type="text" class="input-item" id="txtApellidos"><br>
+        </div>
+        
+        <div class="sexo-item">
+            <label>Sexo:</label><br>
+            <input type="radio" id="radSexM" class="input-item" name="sexo" value="M">
+            <label for="radSexM">M</label><br>
+            <input type="radio" id="radSexF" class="input-item" name="sexo" value="F">
+            <label for="radSexM">F</label><br>
+        </div>
+        
+        <div>
+            <button type="button" id="btnCrear">Crear</button>
+            <button type="button" id="btnSalir">Salir</button>
+        </div>
+    
+    </div>
+
+    <script src="./Ejemplo_de_controlador.js"></script>
+</body>
+</html>

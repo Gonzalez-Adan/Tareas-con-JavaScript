@@ -36,3 +36,5 @@ datosDelUsuario.frutas = frutas;
 
 //Imprimiendo los resultados
 console.log(datosDelUsuario);
+
+alert('Favor de completar los datos del formulario, gracias');

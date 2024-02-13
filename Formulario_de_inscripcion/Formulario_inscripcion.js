@@ -16,3 +16,7 @@ class persona {
 class nacionalidad {
     
 }
+//sessionStorage
+//localStorage
+
+
