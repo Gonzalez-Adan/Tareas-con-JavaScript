@@ -36,4 +36,3 @@ datosDelUsuario.frutas = frutas;
 
 //Imprimiendo los resultados
 console.log(datosDelUsuario);
-
